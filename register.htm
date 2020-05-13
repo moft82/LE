@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+<title>Register</title>
+</head>
+
+<body>
+	<div style="width:100%; height: auto; text-align: center;">
+		<h1>Register</h1>
+		<form action="register.cgi" method="post" >
+			<table style="display: inline-block; width : auto; margin:auto">
+				<tr>
+					<td><h3>Id</h3></td>
+					<td><input type="text" name="id"></td>
+				</tr>
+				<tr>
+					<td><h3>Password</h3></td>
+					<td><input type="password" name="pw"></td>
+				</tr>
+				<tr>
+					<td><h3>Confirm Password</h3></td>
+					<td><input type="password" name="pwcheck"></td>
+				</tr>
+				<tr>
+					<td><h3>E-mail</h3></td>
+					<td><input type="text" name="email"></td>
+				</tr>
+			</table><br>
+			<input type="submit" value="Register">
+			<a href="login.htm"><input type="button" value="Back"></a>
+		</form>	
+	</div>
+	<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+	
+</body>
+</html>
